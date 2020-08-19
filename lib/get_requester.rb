@@ -1,3 +1,4 @@
+
 require 'net/http'
 require 'open-uri'
 require 'json'
@@ -5,6 +6,8 @@ require 'json'
 class GetRequester
 
     attr_reader :url
+
+    #url is the API JSON link  https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
 
     def initialize(url)
         @url = url
